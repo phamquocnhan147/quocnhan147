@@ -284,3 +284,42 @@ body {
     right: 25%;
   }
 }
+#gallery {
+  background: url(https://ae01.alicdn.com/kf/HTB12HD_QFXXXXaUXpXXq6xXFXXX9/5x7ft-hs-C-i-n-C-G-Floordrop-Tu-v-i-v-i-M-ng-In.jpg_640x640.jpg);
+  width: 600px;
+  overflow: hidden;
+  position: relative;
+  z-index: 1;
+  margin: 100px auto;
+  border: 2px solid #003C72;
+}
+
+#navigation {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  float: left;
+}
+
+#navigation li {
+  padding: 0;
+  margin: 0;
+  float: left;
+  clear: both;
+}
+
+#navigation li a img {
+  display: block;
+  border: none;
+}
+
+#navigation li a {
+  display: block;
+}
+
+#full-picture {
+  width: 500px;
+  height: 375px;
+  overflow: hidden;
+  float: left;
+}
